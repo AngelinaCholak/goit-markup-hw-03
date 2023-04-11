@@ -13,6 +13,17 @@ color: #434455;
 background-color: #FFFFFF;
 }
 
+.header{
+    border-bottom: 1px solid #e7e9fc; 
+}
+.div{
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 1158px;
+    padding: 0 15px;
+}
 .link {
 text-decoration: none;
 }
