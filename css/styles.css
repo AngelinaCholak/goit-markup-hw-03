@@ -140,7 +140,16 @@ background-color: var(--presse-state);
 /* Section 2 */
  
 .studio{
-    
+    padding: 120px 0;   
+}
+.list-two{
+    display: flex;
+    gap: 24px;
+}
+ 
+  
+.strategy {
+    width: calc((100% - 72px) / 4);
 }
  .title {
     font-weight: 500;
@@ -148,6 +157,7 @@ background-color: var(--presse-state);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark);
+    margin-bottom: 8px;
  }
 
  .paragraph {
