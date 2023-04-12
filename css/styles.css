@@ -111,17 +111,23 @@ color: var(--presse-state);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-background);
+    max-width: 496px;
 
 }
 .button{
-    background-color: #4D5AE5;
+    background-color: var(--primary-brand);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--white-background);
+    color:var(--primary-brand);
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     
 }
 .button:hover {
@@ -131,7 +137,7 @@ background-color: var(--presse-state);
 background-color: var(--presse-state);
 }
 
-/* Section 1 */
+/* Section 2 */
  
 .studio{
     
