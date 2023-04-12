@@ -121,7 +121,7 @@ color: var(--presse-state);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color:var(--primary-brand);
+    color:var(--white-background);
     cursor: pointer;
     display: block;
     min-width: 169px;
