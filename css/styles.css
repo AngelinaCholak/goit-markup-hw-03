@@ -35,10 +35,14 @@ background-color: var(--white-background);
     width: 1158px;
     padding: 0 15px;
 }
-.nav{
+ nav{
     display: flex;
     align-items: center;
-
+}
+.menu-nav{
+    display: flex;
+    gap: 40px;
+    
 }
 .link {
 text-decoration: none;
