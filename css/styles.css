@@ -223,13 +223,20 @@ background-color: var(--presse-state);
 }
 /* footer*/
 
-.footer{
-     background-color: var(--hero-background)
+footer{
+    background-color: var(--hero-background);
+    padding: 100px 0;
 }
 .span{
     color:var(--light)
 }
-
+.end{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.paragraph-footer{
+    max-width: 264px;
+}
 
 
 
