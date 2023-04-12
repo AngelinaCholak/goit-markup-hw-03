@@ -107,7 +107,9 @@ color: var(--presse-state);
     display: flex;
     gap: 40px;
 }
-
+.img{
+    display: block;
+}
 /* Section 1 */
 
 .section {
