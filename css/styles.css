@@ -42,7 +42,7 @@ background-color: var(--white-background);
 .menu-nav{
     display: flex;
     gap: 40px;
-    
+
 }
 .link {
 text-decoration: none;
@@ -91,6 +91,8 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--modal-overlay);
+    padding: 24px 0;
+
    
 }
 .nav-link:hover {
@@ -100,6 +102,10 @@ color: var(--presse-state);
 .nav-link:focus {
 
 color: var(--presse-state);
+}
+.address-link{
+    display: flex;
+    gap: 40px;
 }
 
 /* Section 1 */
