@@ -11,6 +11,8 @@
         --hero-background: #2E2F42;
         --white-background: #FFFFFF;
         --modal-background: #FCFCFC;
+        --border:#e7e9fc;
+
 
 }
 .body-class {
@@ -301,6 +303,8 @@ footer{
 }
 .portfolio-menu{
     display: flex;
+    gap: 24px;
+    margin-bottom: 72px;
 
 }
 .button-button {
@@ -313,18 +317,23 @@ footer{
     color: #4d5ae5;
     background-color: #F4F4FD;
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
 
 }
 
 .button-button:hover {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 
 }
 
 .button-button:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 
 }
 
