@@ -239,19 +239,7 @@ footer{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* portfolio*/
 
 .body-class {
     font-family: "Roboto", sans-serif;
@@ -267,7 +255,25 @@ footer{
 .link {
     text-decoration: none;
 }
+.header-portfolio{
+    border-bottom: 1px solid #e7e9fc;
 
+}
+.div-portfolio{
+    display: flex;
+    align-items: center;
+
+}
+.nav-portfolio{
+    display: flex;
+    align-items: center;
+
+}
+.logo-portfolio{
+    margin-right: 76px;
+
+
+}
 .span-portfolio {
     color: #2e2f42;
 
@@ -279,7 +285,7 @@ footer{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--dark);
 
 }
 
