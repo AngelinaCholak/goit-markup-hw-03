@@ -305,6 +305,7 @@ footer{
     display: flex;
     gap: 24px;
     margin-bottom: 72px;
+    justify-content: center;
 
 }
 .button-button {
