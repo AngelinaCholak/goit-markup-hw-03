@@ -293,6 +293,16 @@ footer{
     font-style: normal;
 }
 
+
+/* section*/
+
+.section-portfolio {
+    padding: 96px 0 120px;
+}
+.portfolio-menu{
+    display: flex;
+
+}
 .button-button {
 
     font-family: "Roboto", sans-serif;
