@@ -308,7 +308,7 @@ footer{
 }
 .odne-menu{
     gap: 24px;
-    
+
 }
 
 .portfolio-menu {
@@ -378,6 +378,7 @@ footer{
     letter-spacing: 0.02em;
     color: var(--modal-overlay);
     margin-bottom: 8px;
+    margin: 0;
 
 }
 
