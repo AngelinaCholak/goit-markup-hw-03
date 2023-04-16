@@ -20,6 +20,9 @@ img {
     max-width: 100%;
     height: auto;
 }
+li{
+    margin-right: 0;
+}
 .body-class {
     font-family: "Roboto", sans-serif;
     color: var(--text);
@@ -275,7 +278,7 @@ footer{
     display: flex;
     align-items: center;
     margin-right: 0;
-    
+
 
 }
 .nav-portfolio{
@@ -321,6 +324,7 @@ footer{
     justify-content: center;
     column-gap: 24px;
     row-gap: 48px;
+    margin-right: 0;
 
 }
 .button-button {
