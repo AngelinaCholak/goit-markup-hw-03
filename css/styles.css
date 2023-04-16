@@ -46,7 +46,9 @@ background-color: var(--white-background);
 }
 ul {
 
-    
+    padding-left: 0%;
+    margin: 0;
+    margin-right: 0;
 }
  nav{
     display: flex;
@@ -205,7 +207,7 @@ background-color: var(--presse-state);
     display: flex;
     gap: 24px;
 }
-.lelement-three{
+.element-three {
     width: calc((100% - 48px) / 3);
 }
 /* Section 4 */
