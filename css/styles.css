@@ -17,6 +17,8 @@
 }
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 .body-class {
     font-family: "Roboto", sans-serif;
@@ -40,6 +42,10 @@ background-color: var(--white-background);
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+}
+ul {
+    padding-left: 0%;
+    margin: 0;
 }
  nav{
     display: flex;
