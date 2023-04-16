@@ -20,9 +20,7 @@ img {
     max-width: 100%;
     height: auto;
 }
-li{
-    margin-right: 0;
-}
+
 .body-class {
     font-family: "Roboto", sans-serif;
     color: var(--text);
@@ -49,6 +47,7 @@ background-color: var(--white-background);
 ul {
     padding-left: 0%;
     margin: 0;
+    margin-right: 0;
 }
  nav{
     display: flex;
@@ -324,7 +323,7 @@ footer{
     justify-content: center;
     column-gap: 24px;
     row-gap: 48px;
-    margin-right: 0;
+   
 
 }
 .button-button {
