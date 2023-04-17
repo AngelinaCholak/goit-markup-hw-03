@@ -43,6 +43,7 @@ background-color: var(--white-background);
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    text-align: center;
 }
 ul {
 
@@ -125,6 +126,19 @@ color: var(--presse-state);
     display: flex;
     gap: 40px;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 /* Section 1 */
 
@@ -140,6 +154,9 @@ color: var(--presse-state);
     letter-spacing: 0.02em;
     color: var(--white-background);
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto
+    
 
 }
 .button{
@@ -156,6 +173,8 @@ color: var(--presse-state);
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto
     
 }
 .button:hover {
@@ -186,6 +205,7 @@ background-color: var(--presse-state);
     letter-spacing: 0.02em;
     color: var(--dark);
     margin-bottom: 8px;
+    margin: 0;
     text-align: center;
  }
 
@@ -194,9 +214,14 @@ background-color: var(--presse-state);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text);
+    margin: 0;
  }
 /* Section 3 */
 
+.studio-three {
+    padding-bottom: 120px;
+
+}
 .portfolio {
     font-size: 36px;
     line-height: 1.11;
@@ -249,9 +274,10 @@ footer{
 .span{
     color:var(--light)
 }
-.end{
+.end {
     display: inline-block;
     margin-bottom: 16px;
+    
 }
 .paragraph-footer{
     max-width: 264px;
