@@ -43,7 +43,7 @@ background-color: var(--white-background);
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    text-align: center;
+   
 }
 ul {
 
@@ -92,6 +92,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--primary-brand);
 margin-right: 76px;
+
 }
 
 .address {
@@ -206,7 +207,7 @@ background-color: var(--presse-state);
     color: var(--dark);
     margin-bottom: 8px;
     margin: 0;
-    text-align: center;
+ 
  }
 
  .paragraph {
@@ -256,6 +257,7 @@ background-color: var(--presse-state);
 .employee{
     padding: 32px 16px;
     border-radius: 0px 0px 4px 4px;
+    text-align: center;
 
 }
 .paragraph-contacts {
@@ -265,6 +267,7 @@ background-color: var(--presse-state);
     color: var(--text);
     text-align: center;
 }
+
 /* footer*/
 
 footer{
@@ -281,7 +284,10 @@ footer{
 }
 .paragraph-footer{
     max-width: 264px;
+    color: var(--light);
+    line-height: 24px;
 }
+   
 
 
 /* portfolio*/
