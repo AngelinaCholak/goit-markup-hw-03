@@ -95,6 +95,8 @@ margin-right: 76px;
 
 .address {
     font-style: normal;
+    margin-left: auto;
+   
 
 }
 span {
@@ -298,10 +300,6 @@ footer{
     color: #2e2f42;
 
 }
-.address-portfolio {
-    font-style: normal;
-}
-
 
 /* section*/
 
