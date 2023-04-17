@@ -316,7 +316,7 @@ footer{
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 72px;
-    margin: 0;
+   
 
 }
 
@@ -388,7 +388,7 @@ footer{
     letter-spacing: 0.02em;
     color: var(--modal-overlay);
     margin-bottom: 8px;
-    margin: 0;
+  
 
 }
 
