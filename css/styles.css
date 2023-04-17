@@ -310,6 +310,14 @@ footer{
     gap: 24px;
 
 }
+.portfolio-menu-one{
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 72px;
+
+}
 
 .portfolio-menu {
     display: flex;
