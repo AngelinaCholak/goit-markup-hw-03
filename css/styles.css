@@ -206,7 +206,7 @@ background-color: var(--presse-state);
     letter-spacing: 0.02em;
     color: var(--dark);
     margin-bottom: 8px;
-    margin: 0;
+    
  
  }
 
@@ -216,8 +216,8 @@ background-color: var(--presse-state);
     letter-spacing: 0.02em;
     color: var(--text);
     margin: 0;
-    margin-bottom: 8px
  }
+    
 /* Section 3 */
 
 .studio-three {
